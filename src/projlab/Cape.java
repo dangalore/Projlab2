@@ -1,5 +1,8 @@
 package projlab;
 
+
+import java.util.Random;
+
 public class Cape extends Equipment{
     public Cape() {
 

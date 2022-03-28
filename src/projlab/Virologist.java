@@ -1,5 +1,9 @@
 package projlab;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 public class Virologist {
     private int capacity;
     private int amino;

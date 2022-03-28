@@ -1,5 +1,7 @@
 package projlab;
 
+import java.util.Random;
+
 public class DanceVirus extends GeneticCode {
 
     public DanceVirus(int aminoCost, int nucleoCost, int duration){

@@ -1,6 +1,16 @@
 package projlab;
 
 public class AmnesiaVirus extends GeneticCode{
+    public AmnesiaVirus(int aminoCost, int nucleoCost, int duration) {
+        this.aminoCost = aminoCost;
+        this.nucleoCost = nucleoCost;
+        this.duration = duration;
+    }
+
+    @Override
+    public void ApplyEffect(Virologist v){
+        v.ForgetCodes();
+    }
 
     @Override
     public void RemoveEffect(Virologist v) {
